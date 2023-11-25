@@ -19,7 +19,7 @@ function do_something_with_texture(tex) {
 
 
 function init() {
-  container = document.getElementById('container');
+  container = document.querySelector('#container');
 
   camera = new THREE.Camera();
   camera.position.z = 1;

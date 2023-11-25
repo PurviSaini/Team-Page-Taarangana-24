@@ -12,8 +12,9 @@
 
 <body>
   <!-- team image -->
-  <div class="imagecontainer">
-    <img src="https://source.unsplash.com/1268x900/?team">
+  <div class = "imagecontainer" >
+      <img src="https://source.unsplash.com/1268x700/?team" class="grid-items">
+      <h1 class="grid-items">Our Team</h1>
   </div>
 
   <!-- three.js -->
@@ -176,7 +177,15 @@
   }
 </script>
 <!-- here comes animated bg -->
-  <div id="container" touch-action="none"></div>
+  <div class="teams-container">
+    <div class="grid-items team">
+      <h1>WebD Team</h1>
+      <!-- here comes cards -->
+      <h1>HR Team</h1>
+      <h1>EM Team</h1>
+    </div>
+  <div id="container" class="grid-items" touch-action="none"></div>
+  </div>
 
   <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/982762/ccapture.js'></script>
   <script src="./script.js"></script>
