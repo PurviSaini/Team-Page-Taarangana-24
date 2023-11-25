@@ -1,0 +1,79 @@
+*{
+  margin : 0 ; 
+  padding :0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position:relative;
+  touch-action: none;
+  
+}
+
+/*common styles for laptops */
+.imagecontainer{
+  height : 100% ; 
+  width : 100% ; 
+  max-width: 100%;
+}
+
+.imagecontainer:hover img { 
+  transform : scale(1.2) ;
+  opacity : 1 ;
+  z-index :2;
+  animation-duration: 2s;
+ }
+
+ img {  
+  width : 100% ; 
+  height : auto ; 
+ 
+  display: block;
+ }
+ /* Responsive adjustments for smaller screens, e.g., phones */
+@media only screen and (max-width: 600px) {
+  .imagecontainer{
+    height : 100% ; 
+    width : 100% ; 
+    max-width: 100%;
+  }
+
+  img {  
+    width : 100% ; 
+    height : auto ; 
+    display: block;
+   }
+  .imagecontainer:hover img {
+    transform: none; /* Remove the scale transformation for smaller screens */
+    opacity: 1; /* Optionally, adjust opacity or other properties for small screens */
+    z-index: 2;
+    animation-duration: 2s;
+  }
+}
+
+/* Responsive adjustments for laptops with a 15.6-inch screen */
+@media only screen and (min-width: 601px) and (max-width: 1366px) {
+  .imagecontainer{
+    height : 100% ; 
+    width : 100% ; 
+    max-width: 100%;
+  }
+
+  img {  
+    width : 100% ; 
+    height : auto ; 
+    display: block;
+   }
+
+  .imagecontainer:hover img {
+    transform: scale(1.1); /* Adjust transformation for laptops */
+    opacity: 1;
+    z-index: 2;
+    animation-duration: 2s;
+  }
+}
+
+
