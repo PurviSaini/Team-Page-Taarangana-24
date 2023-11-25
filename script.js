@@ -1,3 +1,4 @@
+// animated bg
 let container;
 let camera, scene, renderer;
 let uniforms;
@@ -71,16 +72,9 @@ function animate(delta) {
   requestAnimationFrame(animate);
   render(delta);
 }
-
-
-
-
-
-
 let capturer = new CCapture({
   verbose: true,
   framerate: 60,
-  // motionBlurFrames: 4,
   quality: 90,
   format: 'webm',
   workersPath: 'js/' });
