@@ -17,11 +17,15 @@ html,body{
   background-position: center;
   background-size: cover;
 }
-
-.imagecontainer img {  
-  filter: opacity(60%);
-  overflow: hidden;
- }
+.imagecontainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 251, 251, 0.5); /* Adjust the last value (0.5) for opacity */
+}
 
  /* our team */
  h1{
