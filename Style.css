@@ -8,18 +8,19 @@ html,body{
 
 /* team image */
 .imagecontainer{
-  display: grid;
-  place-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://source.unsplash.com/1268x700/?team");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .imagecontainer img {  
   filter: opacity(60%);
   overflow: hidden;
- }
-
- .grid-items{
-  grid-row:1;
-  grid-column: 1;
  }
 
  /* our team */
@@ -50,6 +51,12 @@ ul.our-team li {
 .teams-container{
   display: grid;
 }
+
+.grid-items{
+  grid-row:1;
+  grid-column: 1;
+ }
+
 .team{
   z-index: 2;
 }
@@ -128,3 +135,4 @@ ul.our-team li:nth-child(8) {
   }
   
 }
+
