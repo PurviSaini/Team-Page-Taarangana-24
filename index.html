@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Page</title>
+    <!-- linking css -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css"> <!--CSS Link to AOS library-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Team Page</title>
-  <!-- linking css -->
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <!-- team image -->
-  <div class = "imagecontainer" >
-      <h1 style="font-size: 100px;">
+  <body>
+    <!-- team image -->
+    <div class="imagecontainer">
+      <h1 style="font-size: 100px">
         <ul class="our-team">
           <li>O</li>
           <li>U</li>
           <li>R</li>
-          <li> </li>
+          <li></li>
           <li>T</li>
           <li>E</li>
           <li>A</li>
           <li>M</li>
-
         </ul>
       </h1>
-  </div>
+    </div>
 
-  <!-- three.js -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
+    <!-- three.js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
   <script id="vertexShader" type="x-shader/x-vertex">
     void main() {
         gl_Position = vec4( position, 1.0 );
@@ -189,210 +197,366 @@
       gl_FragColor = vec4(clamp(colour * 20., 0., 1.),1.0);
   }
 </script> -->
-<!-- here comes animated bg -->
-  <div class="teams-container">
-    <div class="grid-items team">
-      <!-- Website Team -->
-      <h1>WebD Team</h1>
-      <!-- here comes cards -->
-      <div class="card-section-webd container-fluid d-flex flex-wrap justify-content-around">
-      <div class="card m-3" style="width: 18rem;">
-        <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?pizza" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title text-center">Card title</h5>
-        </div>
-      </div>
-      <div class="card m-3" style="width: 18rem;">
-        <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?icecream" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title text-center">Card title</h5>
-        </div>
-      </div>
-      <div class="card m-3" style="width: 18rem;">
-        <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?drinks" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title text-center">Card title</h5>
-        </div>
-      </div> 
-    </div>
-    <!-- HR Team -->
-      <h1>HR Team</h1>
-      <div class="card-section-hr container-fluid d-flex flex-wrap justify-content-around">
-        <div class="card m-3 gradient-border" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?coffee" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
+    <!-- here comes animated bg -->
+    <div class="teams-container" style="background-color: black;">
+      <div class="grid-items team">
+        <!-- Website Team -->
+        <h1>WebD Team</h1>
+        <!-- here comes cards -->
+        <div
+          class="card-section-webd container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?pizza"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?icecream"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?drinks"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
           </div>
         </div>
-        <div class="card m-3 spiral-border" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?fruits" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
+        <!-- HR Team -->
+        <h1>HR Team</h1>
+        <div
+          class="card-section-hr container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3 gradient-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?coffee"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3 neon-animation-1" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?cookie"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3 spiral-border neon-animation-2" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?fruits"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?mountain"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
           </div>
         </div>
-        <div class="card m-3" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?mountain" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-          </div>
-        </div> 
-      </div>
         <!-- PR Team -->
         <h1>PR Team</h1>
-        <div class="card-section-pr container-fluid d-flex flex-wrap justify-content-around">
-          <div class="card m-3 gradient-border" style="width: 18rem;">
-            <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?coffee" alt="Card image cap">
+        <div
+          class="card-section-pr container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3 gradient-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?coffee"
+              alt="Card image cap"
+            />
             <div class="card-body">
               <h5 class="card-title text-center">Card title</h5>
             </div>
           </div>
-          <div class="card m-3 spiral-border" style="width: 18rem;">
-            <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?fruits" alt="Card image cap">
+          <div class="card m-3 spiral-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?fruits"
+              alt="Card image cap"
+            />
             <div class="card-body">
               <h5 class="card-title text-center">Card title</h5>
             </div>
           </div>
         </div>
-            <!-- Sponsorship Team -->
-      <h1>Sponsorship Team</h1>
-      <div class="card-section-sponsi container-fluid d-flex flex-wrap justify-content-around">
-        <div class="card m-3 gradient-border" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?coffee" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
+        <!-- Sponsorship Team -->
+        <h1>Sponsorship Team</h1>
+        <div
+          class="card-section-sponsi container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3 gradient-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?coffee"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?mountain"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
           </div>
         </div>
-        <div class="card m-3" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?mountain" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
+        <!-- Editorial Team -->
+        <h1>Editorial Team</h1>
+        <div
+          class="card-section-edit container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3 gradient-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?coffee"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
           </div>
-        </div> 
+          <div class="card m-3 spiral-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?fruits"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?mountain"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?cars"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <!-- EM Team -->
+        <h1>EM Team</h1>
+        <div
+          class="card-section-em container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3 gradient-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?coffee"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3 spiral-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?fruits"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?mountain"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Creative Team -->
+        <h1>Creative Team</h1>
+        <div
+          class="card-section-creative container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3 gradient-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?coffee"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3 spiral-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?fruits"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?mountain"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <!-- HR Team -->
+        <h1>HR Team</h1>
+        <div
+          class="card-section-hr container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3 gradient-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?coffee"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3 spiral-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?fruits"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?mountain"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Media Team -->
+        <h1>Media Team</h1>
+        <div
+          class="card-section-media container-fluid d-flex flex-wrap justify-content-around"
+        >
+          <div class="card m-3 gradient-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?coffee"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3 spiral-border" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?fruits"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+          <div class="card m-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              height="300px"
+              src="https://source.unsplash.com/1268x700/?mountain"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+            </div>
+          </div>
+        </div>
       </div>
-          <!-- Editorial Team -->
-          <h1>Editorial Team</h1>
-          <div class="card-section-edit container-fluid d-flex flex-wrap justify-content-around">
-            <div class="card m-3 gradient-border" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?coffee" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div>
-            <div class="card m-3 spiral-border" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?fruits" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div>
-            <div class="card m-3" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?mountain" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div> 
-            <div class="card m-3" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?cars" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div> 
-          </div>
-              <!-- EM Team -->
-      <h1>EM Team</h1>
-      <div class="card-section-em container-fluid d-flex flex-wrap justify-content-around">
-        <div class="card m-3 gradient-border" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?coffee" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-          </div>
-        </div>
-        <div class="card m-3 spiral-border" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?fruits" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-          </div>
-        </div>
-        <div class="card m-3" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?mountain" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-          </div>
-        </div> 
-      </div>
-          <!-- Creative Team -->
-          <h1>Creative Team</h1>
-          <div class="card-section-creative container-fluid d-flex flex-wrap justify-content-around">
-            <div class="card m-3 gradient-border" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?coffee" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div>
-            <div class="card m-3 spiral-border" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?fruits" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div>
-            <div class="card m-3" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?mountain" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div> 
-          </div>
-              <!-- HR Team -->
-      <h1>HR Team</h1>
-      <div class="card-section-hr container-fluid d-flex flex-wrap justify-content-around">
-        <div class="card m-3 gradient-border" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?coffee" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-          </div>
-        </div>
-        <div class="card m-3 spiral-border" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?fruits" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-          </div>
-        </div>
-        <div class="card m-3" style="width: 18rem;">
-          <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?mountain" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-          </div>
-        </div> 
-      </div>
-          <!-- Media Team -->
-          <h1>Media Team</h1>
-          <div class="card-section-media container-fluid d-flex flex-wrap justify-content-around">
-            <div class="card m-3 gradient-border" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?coffee" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div>
-            <div class="card m-3 spiral-border" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?fruits" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div>
-            <div class="card m-3" style="width: 18rem;">
-              <img class="card-img-top" height="300px" src="https://source.unsplash.com/1268x700/?mountain" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center">Card title</h5>
-              </div>
-            </div> 
-          </div>
+      <div id="container" class="grid-items" touch-action="none"></div>
     </div>
-  <div id="container" class="grid-items" touch-action="none"></div>
-  </div>
 
-  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/982762/ccapture.js'></script>
-  <script src="./script.js"></script>
-
-</body>
-
-
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/982762/ccapture.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
