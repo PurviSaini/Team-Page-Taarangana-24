@@ -1,4 +1,7 @@
 // animated bg
+AOS.init({
+  duration: 1000,
+});
 let container;
 let camera, scene, renderer;
 let uniforms;
