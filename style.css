@@ -182,18 +182,24 @@ ul.our-team li:nth-child(8) {
 .team{
   z-index: 2;
 }
+
 .team h1{
   text-align: center;
-  padding: 1rem 0rem;
+  /* padding: 1rem 0rem; */
   color:honeydew;
   font-size: 3.5vmax;
-  margin: 3vmax 2.3vmax;
-  /* border-radius: 8px;
-  box-shadow: 0 0 10px rgb(54, 49, 49);
-  background-color: rgba(131, 130, 130, 0.1); */
+  margin: 8vmax 0 5vmax 0;
+  background: linear-gradient(90deg,rgb(242, 55, 18, 0.65), rgb(203, 6, 85, 0.65), rgb(201, 3, 72, 0.65), rgb(5, 58, 163, 0.65), #018094, rgb(0, 97, 84, 0.65));
+  outline: 1px solid grey;
+  outline-offset: 7px;
 }
 
 /* cards border */
+
+div.card-team{
+  background-color: rgb(128, 128, 128, 0.15);
+  padding: 4.5vmax 0;
+}
 
 .card-section-webd .card{
   border: 0.2rem solid #fff;
