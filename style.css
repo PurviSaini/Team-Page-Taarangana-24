@@ -122,51 +122,6 @@ ul.our-team li:nth-child(8) {
   
 }
 
-/* Scroll icon */
-.scroll{
-  text-align: center;
-  background: linear-gradient(90deg,#f23812, rgb(203, 6, 85), #cb0349, #043aa6, #018094, #015f52);
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 20.3px;
-  height: 8.3vmax;
-  /* height: 18%; */
-  display: block;
-  
-}
-.scroll>a>img{
-  height: 100%;
-}
-
-
-/* Up-Down scroll animation */
-.scroll {
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-name: upDown;
-}
-
-@keyframes upDown {
-  0% {
-    transform: translateY(-15px);
-  }
-  50% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-15px);
-  }
-}
-
-
-/* animated bg */
-#container {
-  height: 100%;
-  overflow: auto;
-  position: relative;
-  touch-action: none;
-}
 
 /* teams */
 .teams-container{
@@ -185,7 +140,6 @@ ul.our-team li:nth-child(8) {
 
 .team h1{
   text-align: center;
-  /* padding: 1rem 0rem; */
   color:honeydew;
   font-size: 3.5vmax;
   margin: 8vmax 0 5vmax 0;
@@ -401,7 +355,7 @@ div.card-team{
   color: white;
 }
 
-/* Backfround */
+/* Background */
 .circles{
   position: absolute;
   top: 0;
@@ -514,7 +468,3 @@ div.card-team{
   }
 
 }
-
-/* .teams-container{
-  background:linear-gradient(45deg, rgb(120, 69, 120), rgb(106, 64, 137), rgb(50, 50, 106), rgb(56, 106, 56), rgb(100, 100, 50), rgb(120, 100, 63),rgb(122, 65, 65))
-} */
