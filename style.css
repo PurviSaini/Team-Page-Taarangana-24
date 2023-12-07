@@ -149,7 +149,7 @@ ul.our-team li:nth-child(8) {
   z-index: 2;
 }
 
-/* animation behing team name */
+/* animation behind team name */
 @keyframes a3{
   25% {background-position: 0 0   ,100% 100%,100% calc(100% - 5px)}
   50% {background-position: 0 100%,100% 100%,0    calc(100% - 5px)}
@@ -170,7 +170,7 @@ ul.our-team li:nth-child(8) {
 
 .team h1{
   font-family: "Press Start 2P", sans-serif;
-  text-shadow: 0 0 3px greenyellow;
+  text-shadow: 0 2px 5px greenyellow;
   text-align: center;
   color:honeydew;
   font-size: 3.5vmax;
