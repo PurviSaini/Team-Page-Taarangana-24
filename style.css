@@ -20,25 +20,33 @@ html,body{
 
 /* team image */
 .imagecontainer{
-  height: 100%;
+  /*height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url("https://source.unsplash.com/1268x700/?team");
+  background-image: url("our team final final.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
+  height: 100%;
+  display: flex;
+  background-image: url("our team final final.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  flex-direction: column;
+  align-items: center;
 }
-.imagecontainer::before {
+/* .imagecontainer::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 251, 251, 0.5); /* Adjust the last value (0.5) for opacity */
-}
+  background-color: rgba(255, 251, 251, 0.5); /* Adjust the last value (0.5) for opacity 
+} 
 
 .flex-item-1, .flex-item-2{
   flex: 100%;
@@ -47,19 +55,82 @@ html,body{
 }
 
 .flex-item-1 h1{
-  /* font-size: 100px; */
+  /* font-size: 100px; 
   font-size: 7.5vmax;
 }
  /* our team */
 
-
+/*
 ul.our-team li {
   list-style: none;
   color: #222121;
   display: inline;
   letter-spacing: 15px;
   animation: pre-load 3s linear infinite;
+} */
+
+.wrapper-heading {
+  position: relative;
+  display: inline-block;
+  margin: 35px auto;
 }
+.header-wrap {
+  display: block;
+  width: auto;
+  height: auto;
+  padding-top: 20vh;
+  text-align: center;
+  font-size: 15em;  
+  font-family: 'Press Start 2P', cursive;
+  /*transform: perspective(200px) rotateX(10deg);*/
+  letter-spacing: .1em;
+  user-select: none;
+  text-shadow: 
+  0 -1px 0 #fff,
+0 1px 0 #3168D8,
+0 2px 0 #2E64D2,
+0 3px 0 #2B60CC,
+0 4px 0 #285CC6,
+0 5px 0 #2558C0,
+0 6px 0 #2254BA,
+0 7px 0 #1F50B4,
+0 8px 0 #1C4CAF,
+0 9px 0 #1948A9,
+0 10px 0 #1644A3,
+0 11px 0 #13409D,
+0 12px 0 #1c4aa5cf,
+0 13px 0 #0D3891,
+0 14px 0 #0A348B,
+0 15px 0 #073085,
+0 22px 30px rgba(121, 0, 255, 0.9),
+0 22px 30px rgba(121, 0, 255, 0.9),
+0 22px 15px rgba(121, 0, 255, 0.9),
+0 11px 15px rgba(140, 41, 253, 0.91),
+0 15px 20px rgba(121, 0, 255, 0.9),
+0 15px 11px rgba(121, 0, 255, 0.9),
+0 16px 11px rgba(121, 0, 255, 0.9);
+
+  
+
+  transition: text-shadow .3s ease .3s, 
+    transform .3s ease .3s,
+    letter-spacing .3s ease .3s;
+
+  &:hover {
+    transition: text-shadow .33s ease, 
+      transform .3s ease,
+      letter-spacing .3s ease;
+    text-shadow: 0 0 0 #004134,
+      0 1px 0 #00483B,
+      0 2px 0 #003528,
+      0 3px 3px rgba(0, 0, 0, 0.9);
+    transform: translate(0px, 15px) 
+      perspective(200px) 
+      rotateX(10deg);
+    letter-spacing: .125em;
+  }
+}
+
 /* animation for 'OUR TEAM' */
 @keyframes pre-load {
   
@@ -131,8 +202,6 @@ ul.our-team li:nth-child(8) {
   }
   
 }
-
-
 /* teams */
 .teams-container{
   background-position: center;
@@ -143,7 +212,7 @@ ul.our-team li:nth-child(8) {
 .grid-items{
   grid-row:1;
   grid-column: 1;
- }
+}
 
 .team{
   z-index: 2;
@@ -155,6 +224,7 @@ ul.our-team li:nth-child(8) {
   50% {background-position: 0 100%,100% 100%,0    calc(100% - 5px)}
   75% {background-position: 0 100%,100%    0,100% 5px}
 }
+
 @keyframes a5-1{ 
   0% {clip-path: polygon(50% 50%,100%   0,100% 0,0 0,0 100%,100% 100%,100% 100%)}
 100% {clip-path: polygon(50% 50%,100% 65%,100% 0,0 0,0 100%,100% 100%,100%  35%)}
@@ -345,3 +415,4 @@ filter: blur(8px);
     filter : hue-rotate(360deg);
   }
 }
+
