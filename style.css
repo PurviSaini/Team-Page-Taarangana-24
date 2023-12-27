@@ -132,7 +132,7 @@ ul.our-team li {
 }
 
 /* animation for 'OUR TEAM' */
-@keyframes pre-load {
+/* @keyframes pre-load {
   
   0% {
     color: black;
@@ -164,6 +164,22 @@ ul.our-team li {
     text-shadow: none;
   }
   
+} */
+
+#start-btn-wrap{
+  display: block;
+  text-align: center;
+  width: auto;
+  padding-top: 20vh;
+}
+#start-btn{
+  border: none;
+  background-color:rgb(100, 144, 55);
+  font-family: 'Press Start 2P', cursive;
+  font-size:25px;
+  color: white;
+  padding: 10px 7px 6px 11px;
+  /* border-radius: 10px; */
 }
 
 ul li:nth-child(1) {
