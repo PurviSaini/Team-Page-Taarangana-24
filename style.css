@@ -169,8 +169,11 @@ ul.our-team li {
 #start-btn-wrap{
   display: block;
   text-align: center;
+  height: auto;
   width: auto;
   padding-top: 20vh;
+  background-color: transparent;
+  border: none;
 }
 #start-btn{
   border: none;
