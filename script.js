@@ -1,23 +1,16 @@
-document.getElementById("start-btn-wrap").addEventListener("click", function(){
-  // this.style.cursor = pointer;
-  // this.style.color = 'red';
-  console.log('Hello');
-})
-// $(document).ready(function(){
-//   $('.start-btn').click(function(){
-//     $('.start-btn').animate({
-//       fontSize:"12px"
-//     })
-//   })
-// })
 $(document).ready(function(){
 
   AOS.init({
     duration: 1000,
   });
-  // $('#start-btn-wrap').click(function(){
-  //     $('.wrapper-heading').fadeIn();
-  //     $(this).css("display","none");
-  // })
+  $('#start-btn').click(function(){
+    // $('.imagecontainer').scroll();
+      $('.imagecontainer').html("")
+      $('.imagecontainer').css("background-image","none");
+      $('.imagecontainer').css("background-color","rgb(178, 178, 178)");
+      $('.imagecontainer').slideUp(1000);
+      $('.imagecontainer').scroll();
+      $('.circles').hide();
+  })
 
 })
