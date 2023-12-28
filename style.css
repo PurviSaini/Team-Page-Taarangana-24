@@ -173,6 +173,7 @@ ul.our-team li {
   width: auto;
   margin-top: 20vh;
   padding: 0.9vh 0.5vh 0.4vh 0.5vh;
+  transform: perspective(200px) rotateX(20deg);
   background-color: transparent;
   border: none;
   border: 1px solid grey ;
@@ -194,7 +195,8 @@ ul.our-team li {
 
 #start-btn-wrap:hover{
   border-radius: 0%;
-  transform: perspective(200px) rotateX(20deg);
+  /* transform: perspective(200px) rotateX(20deg); */
+  transform: rotateX(0deg);
 }
 
 #start-btn:hover{
