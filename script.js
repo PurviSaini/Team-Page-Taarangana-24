@@ -14,3 +14,4 @@ $(document).ready(function(){
   })
 
 })
+// added hover effect on start button and scroll effect on clicking start button
