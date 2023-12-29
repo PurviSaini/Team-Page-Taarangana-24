@@ -38,6 +38,7 @@ html,body{
   flex-direction: column;
   align-items: center;
 }
+
 /* .imagecontainer::before {
   content: "";
   position: absolute;
@@ -202,26 +203,7 @@ ul.our-team li {
 #start-btn:hover{
   background-color: white;
   color:rgb(100, 144, 55);
-  border-radius: 0%;
 }
-
-/* .rotate-btn{
-  animation-name: rotatestart;
-  animation-duration:  1s;
-  animation-iteration-count: 1;
-}
-
-@keyframes rotatestart {
-  0%{
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-  50%{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding: 0%;
-  }
-} */
 
 ul li:nth-child(1) {
   animation-delay: .2s;
