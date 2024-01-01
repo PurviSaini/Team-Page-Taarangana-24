@@ -455,4 +455,8 @@ filter: blur(8px);
     filter : hue-rotate(360deg);
   }
 }
-
+@media (max-width : 480px) {
+  .imagecontainer{
+    background-image: url("img/meetOurTeam_mobile_view.png");
+  }
+}
