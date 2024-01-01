@@ -80,11 +80,11 @@ ul.our-team li {
   width: auto;
   height: auto;
   padding-top: 20vh;
+  /* font-size: 3em; */
   text-align: center;
-  font-size: 17em;  
   font-family: 'Press Start 2P', cursive;
   /*transform: perspective(200px) rotateX(10deg);*/
-  letter-spacing: .1em;
+  letter-spacing: 1.5vh;
   user-select: none;
   text-shadow: 
   0 -1px 0 #fff,
@@ -172,7 +172,7 @@ ul.our-team li {
   text-align: center;
   height: auto;
   width: auto;
-  margin-top: 20vh;
+  margin-top: 14vh;
   padding: 0.9vh 0.5vh 0.4vh 0.5vh;
   transform: perspective(200px) rotateX(20deg);
   background-color: transparent;
@@ -455,4 +455,8 @@ filter: blur(8px);
     filter : hue-rotate(360deg);
   }
 }
-
+@media (max-width : 480px) {
+  .imagecontainer{
+    background-image: url("img/meetOurTeam_mobile_view.png");
+  }
+}
