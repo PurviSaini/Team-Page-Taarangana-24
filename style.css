@@ -79,7 +79,7 @@ ul.our-team li {
   display: block;
   width: auto;
   height: auto;
-  padding-top: 20vh;
+  padding-top: 18vh;
   /* font-size: 3em; */
   text-align: center;
   font-family: 'Press Start 2P', cursive;
@@ -455,8 +455,9 @@ filter: blur(8px);
     filter : hue-rotate(360deg);
   }
 }
-@media (max-width : 480px) {
+@media (max-width : 425px) {
   .imagecontainer{
     background-image: url("img/meetOurTeam_mobile_view.png");
+    
   }
 }
