@@ -31,13 +31,14 @@ html,body{
   background-size: cover;*/
   height: 100%;
   display: flex;
-  background-image: url("our team final final.png");
+  background-image: url("img/meetOurTeam.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   flex-direction: column;
   align-items: center;
 }
+
 /* .imagecontainer::before {
   content: "";
   position: absolute;
@@ -79,11 +80,11 @@ ul.our-team li {
   width: auto;
   height: auto;
   padding-top: 20vh;
+  /* font-size: 3em; */
   text-align: center;
-  font-size: 15em;  
   font-family: 'Press Start 2P', cursive;
   /*transform: perspective(200px) rotateX(10deg);*/
-  letter-spacing: .1em;
+  letter-spacing: 1.5vh;
   user-select: none;
   text-shadow: 
   0 -1px 0 #fff,
@@ -132,7 +133,7 @@ ul.our-team li {
 }
 
 /* animation for 'OUR TEAM' */
-@keyframes pre-load {
+/* @keyframes pre-load {
   
   0% {
     color: black;
@@ -164,6 +165,44 @@ ul.our-team li {
     text-shadow: none;
   }
   
+} */
+
+#start-btn-wrap{
+  display: block;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin-top: 14vh;
+  padding: 0.9vh 0.5vh 0.4vh 0.5vh;
+  transform: perspective(200px) rotateX(20deg);
+  background-color: transparent;
+  border: none;
+  border: 1px solid grey ;
+  z-index: 3;
+  border-radius: 10%;
+  transition:  border-radius 0.5s, transform 1s;
+}
+#start-btn{
+  border: none;
+  background-color:rgb(100, 144, 55);
+  font-family: 'Press Start 2P', cursive;
+  font-size:2em;
+  color: white;
+  padding: 10px 7px 6px 11px;
+  text-decoration: none;
+  border-radius: 10%;
+  transition: border-radius 0.5s, background-color 2s;
+}
+
+#start-btn-wrap:hover{
+  border-radius: 0%;
+  /* transform: perspective(200px) rotateX(20deg); */
+  transform: rotateX(0deg);
+}
+
+#start-btn:hover{
+  background-color: white;
+  color:rgb(100, 144, 55);
 }
 
 ul li:nth-child(1) {
@@ -301,6 +340,7 @@ filter: blur(8px);
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: 0;
 }
 
 .circles li{
@@ -416,4 +456,8 @@ filter: blur(8px);
   }
 }
 
-
+@media (max-width: 600px) {
+  .imagecontainer {
+      background: url("our-team-bg-mobile.png") no-repeat center;
+  }
+}

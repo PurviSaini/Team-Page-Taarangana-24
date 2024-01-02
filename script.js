@@ -1,12 +1,20 @@
-AOS.init({
-  duration: 1000,
-});
+$(document).ready(function(){
 
-'use strict';
+  AOS.init({
+    duration: 1000,
+  });
+  $('.teams-container').hide();
+  $('#start-btn').click(function(event){
+    event.preventDefault();
+    $(this).fadeOut(500)
+    $('.wrapper-heading, #start-btn-wrap').fadeOut(500);
+    $('.imagecontainer').slideUp(1700);
+    $('.circles').hide();
+    $('.teams-container').show();
 
-// shim creates 2d context
-const c = a.getContext("2d");
+  });
 
+<<<<<<< HEAD
 // constants (will be auto replace in minified)
 const WIDTH = 1280;
 const HEIGHT = 720;
@@ -232,3 +240,8 @@ const loop=timeStamp=>
 
 loop(0);
 
+@media (max-width: 600px) {
+    body {
+        background: url("our-team-bg-mobile.png") no-repeat center center fixed;
+    }
+}
