@@ -1,74 +1,35 @@
-*{
-  margin : 0; 
-  padding :0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /* utility font classes */
-.minecraft-font{
-  font-family: 'Press Start 2P';
+.minecraft-font {
+  font-family: "Press Start 2P";
 }
-.wavy-font{
-  font-family: 'Dancing Script', cursive;
+.wavy-font {
+  font-family: "Dancing Script", cursive;
 }
 
-html,body{
-  background-image: url("img/bg2.jpeg");
+html,
+body {
+  background-image: url("img/bg.jpeg");
   background-attachment: fixed;
   background-size: contain;
   background-color: #00040f;
   height: 100%;
 }
 
-/* team image */
-.imagecontainer{
-  /*height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-image: url("our team final final.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;*/
+/* home page image */
+.imagecontainer {
   height: 100%;
   display: flex;
-  background-image: url("img/canva.png");
+  background-image: url("img/home.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   flex-direction: column;
   align-items: center;
 }
-
-/* .imagecontainer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 251, 251, 0.5); /* Adjust the last value (0.5) for opacity 
-} 
-
-.flex-item-1, .flex-item-2{
-  flex: 100%;
-  text-align: center;
-  z-index: 2;
-}
-
-.flex-item-1 h1{
-  /* font-size: 100px; 
-  font-size: 7.5vmax;
-}
- /* our team */
-
-/*
-ul.our-team li {
-  list-style: none;
-  color: #222121;
-  display: inline;
-  letter-spacing: 15px;
-  animation: pre-load 3s linear infinite;
-} */
 
 .wrapper-heading {
   position: relative;
@@ -80,94 +41,33 @@ ul.our-team li {
   width: auto;
   height: auto;
   padding-top: 20vh;
-  /* font-size: 3em; */
   text-align: center;
-  font-family: 'Press Start 2P', cursive;
-  /*transform: perspective(200px) rotateX(10deg);*/
+  font-family: "Press Start 2P", cursive;
   letter-spacing: 1.5vh;
   user-select: none;
-  text-shadow: 
-  0 -1px 0 #fff,
-0 1px 0 #3168D8,
-0 2px 0 #2E64D2,
-0 3px 0 #2B60CC,
-0 4px 0 #285CC6,
-0 5px 0 #2558C0,
-0 6px 0 #2254BA,
-0 7px 0 #1F50B4,
-0 8px 0 #1C4CAF,
-0 9px 0 #1948A9,
-0 10px 0 #1644A3,
-0 11px 0 #13409D,
-0 12px 0 #1c4aa5cf,
-0 13px 0 #0D3891,
-0 14px 0 #0A348B,
-0 15px 0 #073085,
-0 22px 30px rgba(121, 0, 255, 0.9),
-0 22px 30px rgba(121, 0, 255, 0.9),
-0 22px 15px rgba(121, 0, 255, 0.9),
-0 11px 15px rgba(140, 41, 253, 0.91),
-0 15px 20px rgba(121, 0, 255, 0.9),
-0 15px 11px rgba(121, 0, 255, 0.9),
-0 16px 11px rgba(121, 0, 255, 0.9);
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #3168d8, 0 2px 0 #2e64d2, 0 3px 0 #2b60cc,
+    0 4px 0 #285cc6, 0 5px 0 #2558c0, 0 6px 0 #2254ba, 0 7px 0 #1f50b4,
+    0 8px 0 #1c4caf, 0 9px 0 #1948a9, 0 10px 0 #1644a3, 0 11px 0 #13409d,
+    0 12px 0 #1c4aa5cf, 0 13px 0 #0d3891, 0 14px 0 #0a348b, 0 15px 0 #073085,
+    0 22px 30px rgba(121, 0, 255, 0.9), 0 22px 30px rgba(121, 0, 255, 0.9),
+    0 22px 15px rgba(121, 0, 255, 0.9), 0 11px 15px rgba(140, 41, 253, 0.91),
+    0 15px 20px rgba(121, 0, 255, 0.9), 0 15px 11px rgba(121, 0, 255, 0.9),
+    0 16px 11px rgba(121, 0, 255, 0.9);
 
-  
-
-  transition: text-shadow .3s ease .3s, 
-    transform .3s ease .3s,
-    letter-spacing .3s ease .3s;
+  transition: text-shadow 0.3s ease 0.3s, transform 0.3s ease 0.3s,
+    letter-spacing 0.3s ease 0.3s;
 
   &:hover {
-    transition: text-shadow .33s ease, 
-      transform .3s ease,
-      letter-spacing .3s ease;
-    text-shadow: 0 0 0 #004134,
-      0 1px 0 #00483B,
-      0 2px 0 #003528,
+    transition: text-shadow 0.33s ease, transform 0.3s ease,
+      letter-spacing 0.3s ease;
+    text-shadow: 0 0 0 #004134, 0 1px 0 #00483b, 0 2px 0 #003528,
       0 3px 3px rgba(0, 0, 0, 0.9);
-    transform: translate(0px, 15px) 
-      perspective(200px) 
-      rotateX(10deg);
-    letter-spacing: .125em;
+    transform: translate(0px, 15px) perspective(200px) rotateX(10deg);
+    letter-spacing: 0.125em;
   }
 }
 
-/* animation for 'OUR TEAM' */
-/* @keyframes pre-load {
-  
-  0% {
-    color: black;
-    text-shadow: none;
-  }
-  
-  20% {
-    color: black;
-    text-shadow: none;
-  }
-  
-  40% {
-    color: #fff900;
-    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
-  }
-  
-  60% {
-    color: black;
-    text-shadow: none;
-  }
-  
-  80% {
-    color: black;
-    text-shadow: none;
-  }
-  
-  100% {
-    color: black;
-    text-shadow: none;
-  }
-  
-} */
-
-#start-btn-wrap{
+#start-btn-wrap {
   display: block;
   text-align: center;
   height: auto;
@@ -177,16 +77,16 @@ ul.our-team li {
   transform: perspective(200px) rotateX(20deg);
   background-color: transparent;
   border: none;
-  border: 1px solid grey ;
+  border: 1px solid grey;
   z-index: 3;
   border-radius: 10%;
-  transition:  border-radius 0.5s, transform 1s;
+  transition: border-radius 0.5s, transform 1s;
 }
-#start-btn{
+#start-btn {
   border: none;
-  background-color:rgb(100, 144, 55);
-  font-family: 'Press Start 2P', cursive;
-  font-size:2em;
+  background-color: rgb(100, 144, 55);
+  font-family: "Press Start 2P", cursive;
+  font-size: 2em;
   color: white;
   padding: 10px 7px 6px 11px;
   text-decoration: none;
@@ -194,31 +94,30 @@ ul.our-team li {
   transition: border-radius 0.5s, background-color 2s;
 }
 
-#start-btn-wrap:hover{
+#start-btn-wrap:hover {
   border-radius: 0%;
-  /* transform: perspective(200px) rotateX(20deg); */
   transform: rotateX(0deg);
 }
 
-#start-btn:hover{
+#start-btn:hover {
   background-color: white;
-  color:rgb(100, 144, 55);
+  color: rgb(100, 144, 55);
 }
 
 ul li:nth-child(1) {
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 ul.our-team li:nth-child(2) {
-  animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 ul.our-team li:nth-child(3) {
-  animation-delay: .6s;
+  animation-delay: 0.6s;
 }
 
 ul.our-team li:nth-child(5) {
-  animation-delay: .8s;
+  animation-delay: 0.8s;
 }
 
 ul.our-team li:nth-child(6) {
@@ -234,106 +133,131 @@ ul.our-team li:nth-child(8) {
 }
 
 @media screen and (max-width: 980px) {
-  
   ul.our-team li {
     font-size: 35px;
     letter-spacing: 0;
   }
-  
 }
 /* teams */
-.teams-container{
+.teams-container {
   background-position: center;
   display: grid;
   padding-bottom: 50px;
 }
 
-.grid-items{
-  grid-row:1;
+.grid-items {
+  grid-row: 1;
   grid-column: 1;
 }
 
-.team{
+.team {
   z-index: 2;
 }
 
 /* animation behind team name */
-@keyframes a3{
-  25% {background-position: 0 0   ,100% 100%,100% calc(100% - 5px)}
-  50% {background-position: 0 100%,100% 100%,0    calc(100% - 5px)}
-  75% {background-position: 0 100%,100%    0,100% 5px}
+@keyframes a3 {
+  25% {
+    background-position: 0 0, 100% 100%, 100% calc(100% - 5px);
+  }
+  50% {
+    background-position: 0 100%, 100% 100%, 0 calc(100% - 5px);
+  }
+  75% {
+    background-position: 0 100%, 100% 0, 100% 5px;
+  }
 }
 
-@keyframes a5-1{ 
-  0% {clip-path: polygon(50% 50%,100%   0,100% 0,0 0,0 100%,100% 100%,100% 100%)}
-100% {clip-path: polygon(50% 50%,100% 65%,100% 0,0 0,0 100%,100% 100%,100%  35%)}
+@keyframes a5-1 {
+  0% {
+    clip-path: polygon(
+      50% 50%,
+      100% 0,
+      100% 0,
+      0 0,
+      0 100%,
+      100% 100%,
+      100% 100%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      50% 50%,
+      100% 65%,
+      100% 0,
+      0 0,
+      0 100%,
+      100% 100%,
+      100% 35%
+    );
+  }
 }
 
-@keyframes a5-2{ 
-100% {transform: translate(90px)}
+@keyframes a5-2 {
+  100% {
+    transform: translate(90px);
+  }
 }
 
-@keyframes a5-0{ 
-100% {background-size:120% 100%,20% 100%}
+@keyframes a5-0 {
+  100% {
+    background-size: 120% 100%, 20% 100%;
+  }
 }
 
-.team h1{
+.team h1 {
   font-family: "Press Start 2P", sans-serif;
   text-shadow: 0 2px 5px greenyellow;
   text-align: center;
-  color:honeydew;
+  color: honeydew;
   font-size: 3.5vmax;
   margin: 8vmax 0 5vmax 0;
-  
-  background:
-  linear-gradient(#ffffff 0 0) 0    0/8px 20px,
-  linear-gradient(#ffffff 0 0) 100% 0/8px 20px,
-  radial-gradient(farthest-side,yellow 90%,#0000) 0 5px/8px 8px content-box,
-  #000;
+
+  background: linear-gradient(#ffffff 0 0) 0 0/8px 20px,
+    linear-gradient(#ffffff 0 0) 100% 0/8px 20px,
+    radial-gradient(farthest-side, yellow 90%, #0000) 0 5px/8px 8px content-box,
+    #000;
   animation: a3 4s infinite linear;
   outline: 1px solid grey;
   outline-offset: 7px;
-  background-repeat: no-repeat; 
-
+  background-repeat: no-repeat;
 }
 
 /* team cards */
-div.card-team{
+div.card-team {
   padding: 4.5vmax 0;
 }
-.card{
-border-bottom-right-radius: 15px!important;
-border-bottom-left-radius: 15px!important;
-border-top-color: rgb(255, 0, 128) !important;
-border-left-color: rgb(17, 226, 216) !important;
-border-right-color: #00ff00 !important;
-border-bottom-color: rgb(248, 233, 24) !important;
-background-color: #00040f44 !important;
-color: white;
-
+.card {
+  border-bottom-right-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+  border-top-color: rgb(255, 0, 128) !important;
+  border-left-color: rgb(17, 226, 216) !important;
+  border-right-color: #00ff00 !important;
+  border-bottom-color: rgb(248, 233, 24) !important;
+  background-color: #00040f44 !important;
+  color: white;
 }
 .card:hover {
-  transform : scale(1.1) !important;
+  transform: scale(1.1) !important;
   transition: 5ms !important;
-  border: conic-gradient( #144207, #f0e15a, #a9224d) !important;
+  border: conic-gradient(#144207, #f0e15a, #a9224d) !important;
   animation: rotate 1s linear infinite !important;
   border-width: 5px !important;
 }
-.card::after{
-  filter: blur(10rem)!important;
-  background: conic-gradient( #144207, #f0e15a, #a9224d)!important;
-  z-index:-1!important;
-  inset: -.5rem!important;
+.card::after {
+  filter: blur(10rem) !important;
+  background: conic-gradient(#144207, #f0e15a, #a9224d) !important;
+  z-index: -1 !important;
+  inset: -0.5rem !important;
 }
 
-.card-body{
+.card-body {
   background-color: rgba(255, 255, 255, 0.03);
 }
-.card-body::backdrop{
-filter: blur(8px);
--webkit-filter: blur(8px); 
+.card-body::backdrop {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
-.circles{
+.circles {
   position: absolute;
   top: 0;
   left: 0;
@@ -343,7 +267,7 @@ filter: blur(8px);
   z-index: 0;
 }
 
-.circles li{
+.circles li {
   position: absolute;
   display: block;
   list-style: none;
@@ -352,18 +276,16 @@ filter: blur(8px);
   background: rgba(61, 54, 54, 0.4);
   animation: animate 25s linear infinite;
   bottom: -150px;
-  
 }
 
-.circles li:nth-child(1){
+.circles li:nth-child(1) {
   left: 25%;
   width: 80px;
   height: 80px;
   animation-delay: 0s;
 }
 
-
-.circles li:nth-child(2){
+.circles li:nth-child(2) {
   left: 10%;
   width: 20px;
   height: 20px;
@@ -371,14 +293,14 @@ filter: blur(8px);
   animation-duration: 12s;
 }
 
-.circles li:nth-child(3){
+.circles li:nth-child(3) {
   left: 70%;
   width: 20px;
   height: 20px;
   animation-delay: 4s;
 }
 
-.circles li:nth-child(4){
+.circles li:nth-child(4) {
   left: 40%;
   width: 60px;
   height: 60px;
@@ -386,28 +308,28 @@ filter: blur(8px);
   animation-duration: 18s;
 }
 
-.circles li:nth-child(5){
+.circles li:nth-child(5) {
   left: 65%;
   width: 20px;
   height: 20px;
   animation-delay: 0s;
 }
 
-.circles li:nth-child(6){
+.circles li:nth-child(6) {
   left: 75%;
   width: 110px;
   height: 110px;
   animation-delay: 3s;
 }
 
-.circles li:nth-child(7){
+.circles li:nth-child(7) {
   left: 35%;
   width: 150px;
   height: 150px;
   animation-delay: 7s;
 }
 
-.circles li:nth-child(8){
+.circles li:nth-child(8) {
   left: 50%;
   width: 25px;
   height: 25px;
@@ -415,7 +337,7 @@ filter: blur(8px);
   animation-duration: 45s;
 }
 
-.circles li:nth-child(9){
+.circles li:nth-child(9) {
   left: 20%;
   width: 15px;
   height: 15px;
@@ -423,7 +345,7 @@ filter: blur(8px);
   animation-duration: 35s;
 }
 
-.circles li:nth-child(10){
+.circles li:nth-child(10) {
   left: 85%;
   width: 150px;
   height: 150px;
@@ -432,35 +354,30 @@ filter: blur(8px);
 }
 
 @keyframes animate {
-
-  0%{
-      transform: translateY(0) rotate(0deg);
-      opacity: 1;
-      border-radius: 0;
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
   }
 
-  100%{
-      transform: translateY(-1000px) rotate(720deg);
-      opacity: 0;
-      border-radius: 50%;
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
   }
-
 }
-@keyframes rotate{
-  0%{
+@keyframes rotate {
+  0% {
     filter: hue-rotate(0deg);
   }
-  
-  100%{
-    filter : hue-rotate(360deg);
+
+  100% {
+    filter: hue-rotate(360deg);
   }
 }
 
 @media (max-width: 555px) {
-
   .imagecontainer {
-
-   background-position:left;
-      /* background: url("our-team-bg-mobile.png") no-repeat center; */
+    background-position: left;
   }
 }
