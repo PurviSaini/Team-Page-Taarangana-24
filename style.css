@@ -31,7 +31,7 @@ html,body{
   background-size: cover;*/
   height: 100%;
   display: flex;
-  background-image: url("img/meetOurTeam.png");
+  background-image: url("img/canva.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -456,8 +456,11 @@ filter: blur(8px);
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 555px) {
+
   .imagecontainer {
-      background: url("our-team-bg-mobile.png") no-repeat center;
+
+   background-position:left;
+      /* background: url("our-team-bg-mobile.png") no-repeat center; */
   }
 }
