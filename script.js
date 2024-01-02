@@ -232,4 +232,3 @@ const loop=timeStamp=>
 
 loop(0);
 
-// 1024B Batafuraiko - By Frank Force
